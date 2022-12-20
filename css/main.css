@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #314755 , #26A0DA);
+    /* background-color: #f0f0f0; */
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 6%;
+}
+
+.container h1{
+    font-size: 3em;
+    color: #F4F1C9;
+}
+
+/*Check Age Button*/
+#checkAgeBtn{
+    padding: 0.625rem;
+    width: 14rem;
+    height: 4rem;
+    margin-top: 5%;
+    border: none;
+    border-radius: 0.500rem;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #F4F1C9;
+    background: #011D41;
+    /* background-color: #ff6a83; */
+}
+
+#checkAgeBtn:hover{
+    transition: all 0.2s ease-in-out;
+    background:  #1A5175;
+}
+
+/*Message*/
+#message{
+    margin: 6%;
+    padding: 1.2%;
+    border: 1px solid #F4F1C9;
+    border-radius: 0.2rem;
+    color: #F4F1C9;
+    background: #bb0306;
+    font-size: 1.2em;
+    line-height: 1.6em;
+
+    display: none;
+}
