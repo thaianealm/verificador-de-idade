@@ -2,7 +2,7 @@ document.getElementById('checkAgeBtn').addEventListener('click', function(){
     checkAge();
 })
 
-function showMessage(){
+function showErrorMessage(){
 let divMessage = document.getElementById('message');
 
         divMessage.style.display = 'block';
@@ -23,13 +23,13 @@ function checkAge(){
     let age = currentYear - theYearOfBirth;
 
     if(aName == '' && theYearOfBirth == ''){
-        showMessage();
+        showErrorMessage();
 
     }else if(aName != null && theYearOfBirth != null && age >= 18){
         return alert(`${aName} tem ${age} anos de idade. ${aName} é maior de idade.`);
     }else if(aName != null && theYearOfBirth != null && age < 18){
         return alert(`${aName} tem ${age} anos de idade. ${aName} é menor de idade`);
     }else {
-        showMessage();
+        showErrorMessage();
     };
 };
