@@ -44,4 +44,4 @@ Você pode acessar o código-fonte do projeto <a href="https://github.com/thaian
 
 ## Desenvolvedores
 
-[<img src="./img/Thaiane.png" width=115><br><sub>Thaiane</sub>](https://github.com/thaianealm)
+[<img src="./assets/img/Thaiane.png" width=115><br><sub>Thaiane</sub>](https://github.com/thaianealm)
