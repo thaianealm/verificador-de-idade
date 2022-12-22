@@ -29,14 +29,14 @@ Um programa web que exibe o nome, a idade e verifica se a pessoa é maior ou men
 - Interação com o usuário
 - Dados dinâmicos
 - Function
+- Objetos JavaScript Date
+- Method
 - DOM
-- Estrutura condicional (if | else)
+- Estruturas condicionais (if | else)
 
 ## Demonstração
 
-Link para visualizar o projeto:
-
-<b>EM BREVE</b>
+Link para visualizar o projeto: https://superb-phoenix-9b64e6.netlify.app/
 
 ## Acesso ao projeto
 
